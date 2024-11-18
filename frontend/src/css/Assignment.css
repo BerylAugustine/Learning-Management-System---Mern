@@ -1,0 +1,26 @@
+.assignment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-left: 100px; */
+  margin-bottom: 500px;
+  width: 1300px;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+.table {
+  width: 1200px;
+  color: black;
+}
+.AssignmentList {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 10px;
+}
+.AssignmentSub {
+  color: #888;
+  font-size: 18px;
+  /* padding: 10px; */
+  margin-bottom: 40px;
+}

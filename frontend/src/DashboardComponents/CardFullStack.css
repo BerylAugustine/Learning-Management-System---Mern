@@ -1,0 +1,258 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column1 {
+  width: 55%;
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+}
+.greet {
+  color: #40aceb;
+  font-weight: 300;
+  padding: 20px 0px;
+  font-size: 22px;
+}
+.course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myCourses {
+  font-size: 40px;
+  font-weight: 400;
+}
+.viewAll {
+  background-color: transparent;
+  color: #40aceb;
+  margin-top: 20px;
+  /* border: 2px solid #888; */
+  font-size: 15px;
+}
+.viewAll:hover {
+  color: white;
+  border: none;
+}
+.search {
+  /* border: 2px solid #0366a0; */
+  border-radius: 10px;
+}
+.searchBox {
+  width: 100px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #888;
+  background-color: transparent;
+}
+.Container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 310px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0366a0;
+  padding: 10px 0px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+#fullStack {
+  background-color: #c2c93c;
+  box-shadow: 0px 10px 20px 0px #c2c93c;
+}
+#htmlCss {
+  background-color: #2e9f57;
+  box-shadow: 0px 10px 20px 0px #2e9f57;
+}
+#python {
+  background-color: #fa8231;
+  box-shadow: 0px 10px 20px 0px #fa8231;
+}
+#dataScience {
+  background-color: #40aceb;
+  box-shadow: 0px 10px 20px 0px #40aceb;
+}
+.cardTitle {
+  padding-top: 10px;
+  padding-bottom: 0;
+  color: white;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+.cardText {
+  font-size: 15px;
+  color: #fbf9f9;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  top: -30px;
+  margin: 0;
+  font-weight: 600;
+  /* background-color: aqua; */
+}
+img {
+  width: 130px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.circular {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.planning {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.calenderIcon {
+  padding: 10px;
+  font-size: 30px;
+  color: #888;
+}
+.calender {
+  font-family: "Oswald", sans-serif;
+  color: #40aceb;
+  font-size: 18px;
+}
+.planning {
+  margin-top: 100px;
+}
+.planDiv {
+  margin-top: 10px;
+  /* display: flex; */
+}
+.beginnerCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 310px;
+  height: 80px;
+  background-color: #f9fbfa;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.bookIcon {
+  font-size: 30px;
+  color: #0366a0;
+  padding: 5px;
+  background-color: #d7e3ea;
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#topic2 .bookIcon {
+  color: #2e9f57;
+  background-color: #b3e8c7;
+}
+#topic3 .bookIcon {
+  color: #9f2e2e;
+  background-color: #e5bcbc;
+}
+#topic4 .bookIcon {
+  color: #998808;
+  background-color: #ede291;
+}
+.holderIcon {
+  font-size: 30px;
+  padding: 3px;
+}
+.detail {
+  padding: 15px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.time {
+  color: #888;
+}
+.vl {
+  border-left: 4px solid rgb(255, 255, 255);
+  height: 1000px;
+  margin: 20px 15px;
+}
+.column2 {
+  margin: 20px;
+  font-family: "Oswald", sans-serif;
+}
+/* .statistics {
+  margin: 0 30px 0 20px;
+} */
+.statTitle {
+  font-size: 30px;
+  font-weight: 400;
+}
+.aboutCourse {
+  background-color: rgb(197, 220, 232);
+  width: 190px;
+  height: 190px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.courseTitle {
+  font-size: 20px;
+  color: #888;
+  padding: 25px 30px;
+}
+.count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.v2 {
+  height: 50px;
+  font-size: 18px;
+  border-left: 4px solid #40aceb;
+  margin-left: 30px;
+}
+.number {
+  font-size: 50px;
+  margin-right: 30px;
+  color: #40aceb;
+}
+.activity {
+  margin-top: 40px;
+}
+.actTitle {
+  font-size: 30px;
+  font-weight: 400;
+}
+.actDetail {
+  margin: 60px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.option {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  font-size: 18px;
+}
+.active {
+  color: #40aceb !important;
+}
+.day,
+.week,
+.month {
+  color: #888;
+}
