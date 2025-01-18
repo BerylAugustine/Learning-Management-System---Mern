@@ -1,0 +1,121 @@
+.loginrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 100px; */
+  background-color: #e9e7e7;
+  height: 100vh;
+}
+.ant-input-outlined {
+  background: #e9e7e7;
+}
+.col1,
+.col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+  /* background-color: rgb(211, 221, 226); */
+}
+
+.logo Img {
+  width: 300px;
+  height: 70px;
+}
+.logintext {
+  color: #888;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.h1 {
+  border-bottom: 2px solid #d5caca;
+  width: 400px;
+  margin-bottom: 25px;
+}
+.set,
+.pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d5caca;
+  border-radius: 5px;
+  padding: 3px;
+  width: 400px;
+  font-size: 18px;
+  color: #40aceb;
+  padding-left: 20px;
+  background-color: #e9e7e7;
+}
+.user {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.lock {
+  padding-right: 10px;
+}
+.signinBtn {
+  /* background-color: #40aceb; */
+  padding: 5px 10px;
+  width: 120px;
+  height: 40px;
+  color: antiquewhite;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.lastLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #888;
+  width: 400px;
+}
+.quick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  margin-right: 10px;
+}
+.quickIcon {
+  font-size: 25px;
+  padding: 5px 0px 5px 20px;
+  color: #888;
+}
+.signinLink {
+  text-decoration: none;
+  color: #2296d9;
+  transition: linear 3s ease-in;
+}
+.signinLink:hover {
+  text-decoration: underline;
+}
+.term {
+  margin: 15px;
+  font-size: 12px;
+}
+.terms,
+.policy {
+  color: #358ec1;
+}
+.RegisterContent {
+  display: flex;
+  flex: 1;
+  justify-content: start;
+  align-items: start;
+}
